@@ -1,15 +1,21 @@
 engines:
   eslint:
     enabled: true
+    channel: "eslint-2"
+  dogma:
+    enabled: true
+
 ratings:
   paths:
     - angular/**
     - "**.js"
+
 languages:
-  Ruby: false
   JavaScript: true
+  Ruby: false
   PHP: true
   Python: false
+
 exclude_paths:
 - "gulpfile.js"
 - "public/js/vendor.js"
